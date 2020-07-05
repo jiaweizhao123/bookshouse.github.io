@@ -1,0 +1,142 @@
+body{
+    animation: into 0.2s;
+    background-color: lightgray;
+   
+ }
+ .clean{
+     width: 1800px;
+     height:65px;
+ }
+ .topmu{
+     float: left;
+     margin-left: -15px;
+     margin-top:-10px;
+     width:1800px;
+     height:70px;
+     background: url("../image/导航栏3.png") no-repeat center center;
+     background-size: 1800px 70px;
+     position: absolute;
+     font-family: "微软雅黑";
+ }
+ .topmu h3{
+    float: left;
+    margin-left: 30px;
+    color:#050505;
+    font-family: "微软雅黑";
+ }
+ .topmu ul{
+     float: left;
+     width: 850px;
+     height: 70px;
+     margin:0px auto;
+     list-style: none;
+ }
+ .topmu ul li{
+     position: relative;
+     transition: all 0.3s;
+     text-align: center;
+     overflow: hidden;
+     color:#000000;
+     line-height: 70px;
+     float: left;
+     width: 150px;
+     height:70px;
+     text-decoration: none;
+ }
+ .topmu ul li a{
+     transition: all 0.3s;
+     text-align: center;
+     color:#000000;
+     line-height: 70px;
+     display: block;
+     width: 150px;
+     height:70px;
+     text-decoration: none;
+ }
+ .topmu ul li a:hover{
+     color:#ffffff;
+ }
+ .nextit:hover{
+    height: 200px;
+    background-color: rgba(184, 177, 177, 0.734);
+}
+.search{
+   float: left;
+   width: 350px;
+   height:40px;
+   background-color: #ffffff;
+   margin-top: 15px;
+   margin-left: 50px;
+}
+.button{
+    float: left;
+    width:43px;
+    height:43px;
+    margin-left:20px;
+    margin-top:13px;
+    background: url("../image/搜索.png") no-repeat;
+    border-style: hidden;
+}
+.topbackground{
+    width: 1700px;
+    height:251px;
+    background: url("../image/主题图片2.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: -10px;
+}
+.bottomone{
+    float: left;
+    width:1600px;
+    height:250px;
+    margin-left: -20px;
+    background:url("../image/导航栏2.png") no-repeat;
+    background-size: 1600px 250px;
+    margin-top:20px;
+}
+.init{
+    width:800px;
+    height:60px;
+    margin:0px auto;
+    text-align: left;
+    text-align: center;
+}
+.init a{
+    color:#000000;
+    text-decoration: none;
+}
+.init a:hover{
+    color:#e07808;
+}
+.linkto a{
+    float: left;
+    display: block;
+    width:150px;
+    height:30px;
+    text-align: center;
+    margin:5px 0px;
+    color: #000000;
+    text-decoration: none;
+}
+.linkto a:hover{
+    color:#0a57a4;
+}
+.linkto{
+    width:800px;
+    height:100px;
+    margin:10px auto;
+}
+.bottomnext{
+    width:1000px;
+    background-color: #09549f;
+    height:100px;
+    margin:0px auto;
+}
+.cleanit{
+    width: 1000px;
+    height:8px;
+    display: inline-block;
+    border-bottom: 1px solid #000000;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}

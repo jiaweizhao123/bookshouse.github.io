@@ -1,0 +1,105 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+        <title>书香阁</title>
+        <link rel="stylesheet" href="css/lendread.css">
+        <link rel="icon" href="./image/书籍 (1).png" type="image/x-icon">
+    </head>
+    <body style="overflow-x: hidden;">
+        <div class="topmu">
+            <img src="image/书籍.png" style="float: left; margin-left: 20px; margin-top:11px;">
+             <h3>书香阁</h3>
+             <ul>
+                 <li><a href="index.html">首页</a></li>
+                 <li class="nextit"><a href="#" class="toplink">分类资源</a>
+                     <a href="type4.html">文史类</a>
+                     <a href="#">...</a>
+                 </li>
+                 <li class="nextit"><a href="#" class="toplink">往期课题</a>
+                     <a href="#">最新课题</a>
+                     <a href="#">课题回顾</a>
+                 </li>
+                 <li class="nextit"><a href="#" class="toplink">图书借阅</a>
+                     <a href="#">借阅榜</a>
+                     <a href="#">返还图书</a>
+                 </li>
+                 <li><a href="#" class="toplink">客服咨询</a></li>
+             </ul>
+             <input class="search" type="search" placeholder="请输入搜索信息">
+             <input type="button" class="button">
+         </div>
+         <div class="clean"></div>
+         <div class="topbackground"></div>
+         <div class="container">
+             <div class="title_top">
+                 <h3>Java应用项目实例</h3>
+                 <div class="informa">发表时间：2020-02-03 阅读次数数：123</div>
+                 </div>
+                <dir class="passage">
+                    <h2>五子棋小游戏</h2>
+                    <h3>一、引言</h3>
+                    <p style="text-indent: 2em">大家都应该知道五子棋吧，当自己和电脑打的时候有没有对电脑怎么下棋有过疑惑？为什么有时候连电脑都打不过呢，哈哈，那么这次我就来说一下自己制作五子棋这个小游戏的心得和领会吧。</p>
+                    <h3>二、界面设计</h3>
+                    <p style="text-indent: 2em">首先是五子棋窗口界面的设计，画窗体，加按钮，这些都比较基础，主要是要重写重绘的方法，否则每次改变窗体都会使其变化，先说一下简单的一些方面，要下五子棋，首先我们要把棋盘做出来对不对，那么大家都知道五子棋的棋盘是15*15的方格，那么有点java基础的就可以画出这个棋盘了是吧。不急，待会儿我们还要给出代码。另外说一下，我们在做一个东西的时候要先想好条件是什么，更具体的说就是那些条件是固定的。这样想的越多对我们的帮助就越大。因为我们做一个项目的时候，要写很多类的，类和类之间又有很多关系，如果知道了一些条件是固定的话，那么我们可以让所有的类继承这个接口，那么岂不是方便了很多，我们想想五子棋哪些条件是固定的，首先我们要存棋子，那么要有一个15*15的数组来存放吧，接下来我们要画棋子，那么棋子的大小也应该是固定的，对于画棋盘来说，边界的间距也是固定的等等，首先我们写出了一个接口，那么接下来我们在写类的时候就可以让类去继承这个接口，先贴出代码：</p>
+                    <div class="code">
+                        <div class="col_num">
+                            1<br>
+                            2<br>
+                            3<br>
+                            4<br>
+                            5<br>
+                            6<br>
+                            7<br>
+                            8<br>
+                            9<br>
+                            10<br>
+                            11<br>
+                            12<br>
+                        </div>
+                        <div class="codeinit">
+                        package GoBang;<br>
+                        public interface GoBangInterface <br>
+                        {<br>
+                            //棋子的大小<br>
+                            public static final int Size = 44;<br>
+                            public static final int X = 25;<br>
+                            public static final int Y = 25;<br>
+                            public static final int Row = 15;<br>
+                            public static final int Coloum = 15;<br>
+                            //存旗子的数组<br>
+                            public static final int[][] array = new int[Row][Coloum];<br>
+                        }
+                        </div>
+                    </div>
+                    <p style="text-indent: 2em">那么接下来我们可以画棋盘了，先贴出代码：</p>
+                 
+                </dir> 
+                   <div class="readmore"><a href="#">展开阅读全文 &nabla;</a></div>
+         </div>
+         <div class="bottomone">
+            <div class="topbottom">
+                <h2>友情链接</h2>
+                <div class="linkto">
+                    <a href="#">GitHub</a>
+                    <a href="#">个人博客</a>
+                    <a href="#">网站主站</a>
+                    <a href="#">163邮箱</a>
+                    <a href="#">QQ邮箱</a>
+                    <a href="#">微信主页</a>
+                    <a href="#">QQ主页</a>
+                    <a href="#">不识人间月</a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="cleanit"></div>
+                <div class="init">版权所有©
+                    <a href="https://jiaweizhao123.github.io/">2020 不识人间月</a>
+                    <br>write by sazkuyo
+                </div>
+        </div>
+    </body>
+</html>
